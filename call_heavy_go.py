@@ -20,4 +20,4 @@ result = heavy_go.CalculateHeavyTask(n)
 end_time = time.time()
 
 print(f"Resultado de la suma de cuadrados calculado en Go: {result}")
-print(f"Tiempo total en Python llamando a Go: {end_time - start_time:.2f} segundos")
+print(f"Tiempo total en Python llamando a Go: {end_time - start_time:.7f} segundos")
